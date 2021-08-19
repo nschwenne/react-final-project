@@ -1,13 +1,174 @@
+* {
+  text-align: center;
+  font-family: copperplate;
+  color: maroon;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  
+}
+ .header {
+font-size: 70px;
+background-color: #00001a;
+display: flex;
+justify-content: center;
+margin: 0;
+align-self: stretch;
+ }
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ background-color: #e6e6e6;
+} 
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  background-color: black;
+  justify-content: space-between;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav a:hover,
+nav a:active {
+  color: maroon;
+  border-bottom: 2px solid maroon;
+}
+nav a.active {
+  color: ghostwhite;
+  background: maroon;
+}
+
+button {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  font-family: copperplate;
+  color: maroon;
+  background-color: darkgoldenrod;
+  border: 2px solid silver;
+  
+  
+}
+
+.placeholder {
+  background-color: ghostwhite;
+  color: black;
+  height: 50px;
+  width: 50px;
+  padding: 50px;
+  margin: 20px auto;
+  border: 4px solid maroon;
+  font-size: 70px;
+}
+
+.info {
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+ #creatureFinderForm{
+  font-family: copperplate;
+  display: flex;
+  justify-content: center;
+  top: 150px;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+} 
+
+#inputForm{
+  font-size: 30px;
+}
+
+#creatureFinderInfo{
+  justify-content: center;
+text-align: center;
+font-family: copperplate;
+font-size: 20px;
+display: flex;
+top: 100px;
+left: 0;
+right: 0;
+}
+
+#creatureCreatorForm{
+  font-family: copperplate;
+  display: flex;
+  flex-direction: column;
+  top: 130px;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+} 
+
+.diceRow1{
+  
+  top: 150px;
+  left: 34%;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.diceRow2{
+  
+  top: 400px;
+  left: 34%;
+  right: 0;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+
+.subHead {
+  display: flex;
+  justify-content: center;
+  top: 400px;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+
+}
+
+#createdCreaturelist{
+  display: flex;
+  justify-content: center;
+  top: 460px;
+  left: 0;
+  right: 0;
+}
+
+#creatureListSubHead{
+  display: flex;
+  justify-content: center;
+  top: 280px;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+}
+
+#creatureList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 380px;
+  margin: 5px;
+}
+
+#submitbutton{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 200px;
+  background-color: darkgoldenrod;
+  margin: 2px;
 }
